@@ -13,3 +13,12 @@ primeiraSemana = [Semana1 , Semana2]
 ultimaSemana = [Semana3 , Semana4]
 
 mes = [primeiraSemana,  ultimaSemana]
+
+
+for(var x = 0; x < mes.length; x++){
+    for(var u = 0; u < mes[x].length; u++){
+        for(var t = 0; t < mes[x][u].length; t++){
+            console.log(mes[x][u][t])
+        }   
+    }
+}
