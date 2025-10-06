@@ -7,7 +7,7 @@
 //CLASSE DE PILHA
 function Stack(){
     var items = []
-
+    
     //metodos...
     this.push = function(dado){
         //adiciona um novo item a Pilha
